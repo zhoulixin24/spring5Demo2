@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 
 //@Component(value = "userService")
 //@Component
-    @Service
+    @Service(value = "userService")
 public class UserService {
 
         @Autowired
