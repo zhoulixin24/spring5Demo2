@@ -1,5 +1,7 @@
 package org.example.dao;
 
 public interface UserDao {
-    public void add();
+    void add();
+
+    int delete(int a,int b);
 }
