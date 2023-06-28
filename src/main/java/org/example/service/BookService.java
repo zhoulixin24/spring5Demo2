@@ -14,4 +14,9 @@ public class BookService {
     public void add(Book book){
         bookDao.add(book);
     }
+    public void update(Book book){bookDao.update(book);}
+
+    public void delete(int id){bookDao.delete(id);}
+
+    public int findCount(){return bookDao.selectCount();}
 }
