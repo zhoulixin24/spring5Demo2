@@ -16,6 +16,9 @@ public class TestBook {
         book.setBookName("阿里巴巴");
         book.setAuther("马云");
         bookService.add(book);
+        book.setBookName("金东");
+        book.setAuther("刘强东");
+        bookService.add(book);
         System.out.println(bookService.findCount());
     }
 }
